@@ -24,7 +24,7 @@ export interface EventDocument extends Document, EventAttrs {
   updatedAt: Date;
 }
 
-export interface EventModel extends Model<EventDocument> {}
+export type EventModel = Model<EventDocument>
 
 // Helper to generate a URL-friendly slug from the title
 function generateSlug(title: string): string {
