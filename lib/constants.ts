@@ -68,3 +68,4 @@ export const events: Event[] = [
     time: "09:00–18:00 CEST",
   },
 ];
+export default events;
